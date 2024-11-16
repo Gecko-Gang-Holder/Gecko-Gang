@@ -5,7 +5,7 @@
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "frame-src 'self' https://gecko-gang.vercel.app/;"
+          "value": "frame-src 'self' https://www.ixl.com;"
         }
       ]
     }
