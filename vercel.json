@@ -1,7 +1,7 @@
 {
   "headers": [
     {
-      "source": "/(.*)",  // This applies the headers to all pages
+      "source": "/(.*)",
       "headers": [
         {
           "key": "Content-Security-Policy",
