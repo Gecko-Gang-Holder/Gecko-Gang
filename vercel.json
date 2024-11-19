@@ -1,11 +1,11 @@
 {
   "headers": [
     {
-      "source": "/(.*)",
+      "source": "/(.*)",  // This applies the headers to all pages
       "headers": [
         {
           "key": "Content-Security-Policy",
-          "value": "frame-src 'self' about:blank;"
+          "value": "default-src 'self'; frame-ancestors 'self' https://gecko-gang.vercel.app; object-src 'none';"
         }
       ]
     }
